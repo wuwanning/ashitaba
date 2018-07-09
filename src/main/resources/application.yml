@@ -1,0 +1,14 @@
+server: 
+      port: 8080
+      context-path: /
+logging:
+  level: 
+    root: info
+  path: /log/ashitaba 
+  
+spring:
+  datasource: 
+    driver-class-name: com.mysql.jdbc.Driver       
+    url: jdbc:mysql://localhost:3306/db_test
+    username: root
+    password: 520520   
