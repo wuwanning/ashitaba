@@ -4,11 +4,17 @@ server:
 logging:
   level: 
     root: info
-  path: /log/ashitaba 
+  path: H:/log/ashitabas  
+  
+security:
+  basic:
+    enabled: false  
   
 spring:
   thymeleaf:
+    mode: HTML
     cache: false 
+ 
   datasource: 
     #基本配置
     driver-class-name: com.mysql.jdbc.Driver       

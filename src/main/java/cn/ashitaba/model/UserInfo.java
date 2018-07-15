@@ -16,7 +16,7 @@ import javax.persistence.TemporalType;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
-@Table(name="t_user_info")
+@Table(name="t_sys_user_info")
 public class UserInfo implements java.io.Serializable{
 	
 	private static final long serialVersionUID = 1L;
